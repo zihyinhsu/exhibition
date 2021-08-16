@@ -16,6 +16,7 @@
 
   <body>
     <!-- 標頭 -->
+    <div class="header bg-white">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -34,10 +35,121 @@
                     <a class="nav-link text-dark ms-lg-6" href="#">Sign up</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link ms-lg-6 text-black" href="#">
-                      <span class="material-icons position-relative h2">local_activity
-                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary h6">3<span class="visually-hidden">unread messages</span></span>
-                      </span>
+                      <!-- cart -->
+                      <!-- Button trigger modal -->
+                      <a class="nav-link ms-lg-6 text-black" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        <span class="material-icons position-relative h2">local_activity
+                          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary h6">3<span class="visually-hidden">unread messages</span></span>
+                        </span>
+
+                      <!-- Modal -->
+                      <!-- 新增 .right -->
+                      <div class="modal right fade modal-dialog-scrollable " id="staticBackdrop" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content text-white bg-black">
+                            <div class="modal-header px-7 pt-7 pb-0">
+                              <h1 class="modal-title fw-bold" id="exampleModalLabel">Cart List</h1>
+                            </div>
+                            <div class="modal-body text-black px-7 pt-3">
+                              <!-- exhi item 1 -->
+                              <div class="card rounded-3 position-relative py-6 px-7 mb-3">
+                                <div class="position-absolute top-0 start-0 m-1">
+                                  <button type="btn" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  <img src="" alt="">
+                              </div>
+                              <div class="card" style="max-width: 540px;">
+                                <div class="row g-0">
+                                  <div class="col-md-4">
+                                    <img class="w-100 h-100" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/exhibition-week6/alina-grubnyak-R84Oy89aNKs-unsplash.jpg" alt="...">
+                                  </div>
+                                  <div class="col-md-8 d-flex">
+                                    <div class="card-body m-0 p-0 ms-4 me-4">
+                                      <h5 class="card-title gw-bold mb-1">2020 台味設計展</h5>
+                                      <h5 class="card-text mb-1">01 JUN — 31 OCT</h5>
+                                      <h5 class="mb-3">全票</h5>
+                                      <h4>NT$350</h4>
+                                    </div>
+                                    <div class="count d-flex align-items-center">
+                                      <span class="material-icons me-3">remove</span>
+                                      <h4 class="fw-bold me-3">01</h4>
+                                      <span class="material-icons">add</span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              </div>
+
+                            <!-- exhi item 2 -->
+                            <div class="card rounded-3 position-relative py-6 px-7 mb-3">
+                              <div class="position-absolute top-0 start-0 m-1">
+                                <button type="btn" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <img src="" alt="">
+                            </div>
+                            <div class="card mb-3" style="max-width: 540px;">
+                              <div class="row g-0">
+                                <div class="col-md-4">
+                                  <img class="w-100 h-100" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/exhibition-week6/michel-catalisano--a0D9LpcKV8-unsplash.jpg" alt="...">
+                                </div>
+                                <div class="col-md-8 d-flex">
+                                  <div class="card-body m-0 p-0 ms-4 me-4">
+                                    <h5 class="card-title gw-bold mb-1">2020 台味設計展</h5>
+                                    <h5 class="card-text mb-1">01 JUN — 31 OCT</h5>
+                                    <h5 class="mb-3">全票</h5>
+                                    <h4>NT$350</h4>
+                                  </div>
+                                  <div class="count d-flex align-items-center">
+                                    <span class="material-icons me-3">remove</span>
+                                    <h4 class="fw-bold me-3">01</h4>
+                                    <span class="material-icons">add</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            </div>
+
+                            <!-- exhi item 3 -->
+                            <div class="card rounded-3 position-relative py-6 px-7">
+                              <div class="position-absolute top-0 start-0 m-1">
+                                <button type="btn" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <img src="" alt="">
+                            </div>
+                            <div class="card mb-3" style="max-width: 540px;">
+                              <div class="row g-0">
+                                <div class="col-md-4">
+                                  <img class="w-100 h-100" src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/exhibition-week6/moralis-tsai-8xsktFRw28I-unsplash.jpg" alt="...">
+                                </div>
+                                <div class="col-md-8 d-flex">
+                                  <div class="card-body m-0 p-0 ms-4 me-4">
+                                    <h5 class="card-title gw-bold mb-1">2020 台味設計展</h5>
+                                    <h5 class="card-text mb-1">01 JUN — 31 OCT</h5>
+                                    <h5 class="mb-3">全票</h5>
+                                    <h4>NT$350</h4>
+                                  </div>
+                                  <div class="count d-flex align-items-center">
+                                    <span class="material-icons me-3">remove</span>
+                                    <h4 class="fw-bold me-3">01</h4>
+                                    <span class="material-icons">add</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            </div>
+                            </div>
+                            <div class="modal-footer d-flex justify-content-between mx-7">
+                              <div class="totalCash d-flex align-items-center">
+                                <h4 class="me-6">小計</h4> 
+                                <span>NT$1050</span>
+                              </div>
+                              <button type="button" class="btn btn-outline-primary payMoney">前往結帳</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+
+
+
                     </a>
                   </li>
                   </ul>
@@ -49,6 +161,7 @@
         </div>
       </div>
     </div>
+  </div>
 
 
     <%- contents %>
