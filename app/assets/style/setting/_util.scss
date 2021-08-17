@@ -10,6 +10,11 @@
   }
 }  
 
+@include media-breakpoint-up(lg) {
+  .position-lg-static {
+    position:static !important;
+  }
+}  
 
   .opacity-50{
     opacity: 0.5;
