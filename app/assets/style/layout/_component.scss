@@ -74,7 +74,7 @@
 //cart
 .modal.right .modal-dialog {
   position: fixed;
-  top: 11%;
+  top: 14%;
   right: 0;
   height: 90%;
   margin: 0;
@@ -118,14 +118,7 @@
   display: none;
 }
 
-.cartPic{
-  @include size(120px,120px);
-}
-
 //scrollbar
-$scrollbar-height: 5px;
-$scrollbar-padding: 15px;
-
 ::-webkit-scrollbar {
    height: (($scrollbar-padding * 2) + $scrollbar-height);
 	background-color: rgba(255,255,255,0);
@@ -133,8 +126,11 @@ $scrollbar-padding: 15px;
 
 ::-webkit-scrollbar-track,
 ::-webkit-scrollbar-thumb {
-	border: 10px solid rgba(255,255,255,0);
+	border: 11px solid rgba(255,255,255,0);
 	background-clip: padding-box;
+  @include media-breakpoint-up(md) {
+    border: 10px solid rgba(255,255,255,0);
+  }
 }
 
 ::-webkit-scrollbar-track {
@@ -143,7 +139,4 @@ $scrollbar-padding: 15px;
 
 ::-webkit-scrollbar-thumb {
 	background-color: $secondary;
-	// &:hover {
-	// 	border: 15px solid rgba(255,255,255,0);
-	// }
 }
