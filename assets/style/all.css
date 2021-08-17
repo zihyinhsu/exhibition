@@ -13228,7 +13228,6 @@ fieldset:disabled .btn {
           box-sizing: border-box;
   text-decoration: none;
   font-family: 'Noto Sans TC', sans-serif;
-  outline: solid 1px;
 }
 
 body h1, body .h1, body h2, body .h2, body h3, body .h3, body h4, body .h4, body h5, body .h5, body h6, body .h6, body p {
