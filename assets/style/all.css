@@ -13268,7 +13268,7 @@ img {
   background-color: #190014CC;
 }
 
-.payMoney {
+.white-bg-btn {
   background-color: #fff;
 }
 
@@ -13307,8 +13307,22 @@ img {
   white-space: nowrap;
 }
 
+.nav-scroller .nav a {
+  color: #707070;
+}
+
 .nav-scroller .nav a:hover {
-  border-bottom: 1px solid #E31277;
+  color: #E31277;
+  border-bottom: 2px solid #E31277;
+}
+
+.nav-link, .hover {
+  color: #707070;
+  cursor: pointer;
+}
+
+.nav-link:hover, .hover:hover {
+  color: #E31277;
 }
 
 .liveReview {
@@ -13352,9 +13366,9 @@ img {
 
 .modal.right .modal-dialog {
   position: fixed;
-  top: 14%;
+  top: 11%;
   right: 0;
-  height: 90%;
+  height: 92%;
   margin: 0;
   -webkit-transform: translate3d(0%, 0, 0);
           transform: translate3d(0%, 0, 0);
@@ -13364,6 +13378,7 @@ img {
 @media (min-width: 992px) {
   .modal.right .modal-dialog {
     top: 12%;
+    height: 88%;
     max-width: 540px;
   }
 }
@@ -13419,6 +13434,21 @@ img {
 
 ::-webkit-scrollbar-thumb {
   background-color: #E31277;
+}
+
+.circlePoint {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
 }
 
 /*# sourceMappingURL=all.css.map */
