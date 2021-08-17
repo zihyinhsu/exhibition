@@ -13228,6 +13228,7 @@ fieldset:disabled .btn {
           box-sizing: border-box;
   text-decoration: none;
   font-family: 'Noto Sans TC', sans-serif;
+  outline: solid 1px;
 }
 
 body h1, body .h1, body h2, body .h2, body h3, body .h3, body h4, body .h4, body h5, body .h5, body h6, body .h6, body p {
@@ -13257,6 +13258,12 @@ img {
 @media (min-width: 992px) {
   .fs-lg-4 {
     font-size: 1.25rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .position-lg-static {
+    position: static !important;
   }
 }
 
@@ -13449,6 +13456,10 @@ img {
   width: 20px;
   height: 20px;
   border-radius: 50%;
+}
+
+.material-icons {
+  display: block;
 }
 
 /*# sourceMappingURL=all.css.map */
