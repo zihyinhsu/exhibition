@@ -1,8 +1,8 @@
 .mask{
     background-color: #190014CC;
   }
-// payMoney
-.payMoney{
+// white-bg-btn
+.white-bg-btn{
     background-color: #fff;
 }
 
@@ -34,9 +34,19 @@
   overflow-x: auto;
   white-space: nowrap;
   a{
+    color: $dark;
     &:hover{
-      border-bottom: 1px solid $secondary;
+      color: $secondary;
+      border-bottom: 2px solid $secondary;
     }
+  }
+}
+
+.nav-link,.hover{
+  color: $dark;
+  cursor: pointer;
+  &:hover{
+    color: $secondary;
   }
 }
 
@@ -74,15 +84,15 @@
 //cart
 .modal.right .modal-dialog {
   position: fixed;
-  top: 14%;
+  top: 11%;
   right: 0;
-  height: 90%;
+  height: 92%;
   margin: 0;
   transform: translate3d(0%, 0, 0);
-  // max-width: 100%;
   width: 100%;
   @include media-breakpoint-up(lg) {
     top: 12%;
+    height: 88%;
     max-width: 540px;
   } 
 }
@@ -139,4 +149,13 @@
 
 ::-webkit-scrollbar-thumb {
 	background-color: $secondary;
+}
+
+
+.circlePoint{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @include size (20px,20px);
+  border-radius: 50%;
 }
