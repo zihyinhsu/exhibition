@@ -70,48 +70,18 @@
   object-fit: cover;
 }
 
-//cart
+.modal-backdrop.show{
+  display: none;
+}
 
-.modal.right .modal-dialog {
-  position: fixed;
-  top: 0%;
-  right: 0;
-  height: 100%;
-  margin: 0;
-  transform: translate3d(0%, 0, 0);
+//offvanvas
+.offcanvas{
   width: 100%;
-  @include media-breakpoint-up(lg) {
+  @include media-breakpoint-up(md) {
     top: 9%;
     height: 91%;
     max-width: 540px;
   } 
-}
-
-.modal.right .modal-content {
-  height: 100%;
-  overflow-y: auto;
-}
-
-.modal {
-  &-content {
-    border-radius: 0;
-    border: none;
-  }
-  &-header {
-    border-bottom: none;
-  }
-  // &-body{
-  //   .card{
-  //     max-width: 540px;
-  //   }
-  // }
-  &-footer {
-    border-top: none;
-  }
-}
-
-.modal-backdrop.show{
-  display: none;
 }
 
 //scrollbar
