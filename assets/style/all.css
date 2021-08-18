@@ -13379,6 +13379,10 @@ img {
   }
 }
 
+.z-index-0 {
+  z-index: 0 !important;
+}
+
 .mask {
   background-color: #190014CC;
 }
