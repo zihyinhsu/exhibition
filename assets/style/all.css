@@ -13468,45 +13468,20 @@ img {
      object-fit: cover;
 }
 
-.modal.right .modal-dialog {
-  position: fixed;
-  top: 0%;
-  right: 0;
-  height: 100%;
-  margin: 0;
-  -webkit-transform: translate3d(0%, 0, 0);
-          transform: translate3d(0%, 0, 0);
+.modal-backdrop.show {
+  display: none;
+}
+
+.offcanvas {
   width: 100%;
 }
 
-@media (min-width: 992px) {
-  .modal.right .modal-dialog {
+@media (min-width: 768px) {
+  .offcanvas {
     top: 9%;
     height: 91%;
     max-width: 540px;
   }
-}
-
-.modal.right .modal-content {
-  height: 100%;
-  overflow-y: auto;
-}
-
-.modal-content {
-  border-radius: 0;
-  border: none;
-}
-
-.modal-header {
-  border-bottom: none;
-}
-
-.modal-footer {
-  border-top: none;
-}
-
-.modal-backdrop.show {
-  display: none;
 }
 
 ::-webkit-scrollbar {
