@@ -2,8 +2,13 @@
 @import "./helpers/variables";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
+// 在這裡修改文字斷點
+@import '../../../node_modules/bootstrap/scss/utilities';
+
 @import "./helpers/mixin";
 @import "./setting/base";
 @import "./setting/util";
 @import "./layout/component";
+
+// pages
 @import "./layout/index.scss";
