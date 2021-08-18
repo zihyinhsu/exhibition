@@ -39,7 +39,7 @@
               </span>
             </a>
             <!-- offcanvas -->
-            <div class="offcanvas offcanvas-end bg-black text-white" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas offcanvas-end bg-black text-white" data-bs-scroll="true" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
               <div class="offcanvas-header px-7 pt-7 pb-2">
                 <h1 class="offcanvas-title fw-bold" id="exampleModalLabel">Cart List</h1>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -126,17 +126,18 @@
                 </div>
               </div>
               </div>
-
-              <!-- cart footer -->
-              <div class="d-flex justify-content-between text-white mt-7">
-                <div class="totalCash d-flex align-items-center">
-                  <h4 class="me-6">小計</h4> 
-                  <span>NT$1050</span>
-                </div>
-                <button type="button" class="btn btn-outline-primary white-bg-btn">前往結帳</button>
-              </div>
               
             </div>
+
+            <!-- cart footer -->
+            <div class="offcanvas-footer d-flex justify-content-between text-white mx-5 mx-lg-7 mb-5 mb-lg-5 mt-3 m-lg-5">
+              <div class="totalCash d-flex align-items-center ">
+                <h4 class="me-6">小計</h4> 
+                <span>NT$1050</span>
+              </div>
+              <button type="button" class="btn btn-outline-primary white-bg-btn">前往結帳</button>
+            </div>
+
           </div>
           </div>
           <!-- 摺疊 -->
