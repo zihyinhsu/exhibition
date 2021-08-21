@@ -3,19 +3,6 @@
     height: $h;
   }
 
-@mixin img{
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-@mixin center{
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translateX(-50%) translateY(-50%);
-}
-
 $scrollbar-height: 5px;
 $scrollbar-padding: 15px;
 

@@ -1,0 +1,27 @@
+.nav-scroller {
+    height: 2.75rem; /* 隱藏下方捲軸 */
+    overflow-y: hidden; 
+    border-bottom: 1px solid $dark;
+  }
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom:1rem; /* 隱藏下方捲軸 */ 
+    overflow-x: auto;
+    white-space: nowrap;
+    a{
+      color: $dark;
+      &:hover{
+        color: $secondary;
+        border-bottom: 2px solid $secondary;
+      }
+    }
+  }
+  
+  .nav-link,.hover{
+    color: $dark;
+    cursor: pointer;
+    &:hover{
+      color: $secondary;
+    }
+  }

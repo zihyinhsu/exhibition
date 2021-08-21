@@ -11,7 +11,4 @@
 @import "./helpers/mixin";
 @import "./setting/base";
 @import "./setting/util";
-@import "./layout/component";
-
-// pages
-@import "./layout/index.scss";
+@import "./component/component";

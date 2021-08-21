@@ -1,4 +1,3 @@
-
 @include media-breakpoint-up(lg) {
   .w-lg-auto {
     width: auto!important;
@@ -14,4 +13,29 @@
 
 .z-index-0{
   z-index: 0 !important;
+}
+
+.z-index-2{
+  z-index: 2;
+}
+.bg-attachment-fixed{
+  background-attachment:fixed ;
+}
+
+.center{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.imgCover{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.h-482{
+  height: 482px;
 }
