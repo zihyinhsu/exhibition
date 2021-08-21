@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -13365,6 +13364,10 @@ img {
      object-fit: cover;
 }
 
+.material-icons {
+  display: block;
+}
+
 @media (min-width: 992px) {
   .w-lg-auto {
     width: auto !important;
@@ -13383,6 +13386,33 @@ img {
   z-index: 0 !important;
 }
 
+.z-index-2 {
+  z-index: 2;
+}
+
+.bg-attachment-fixed {
+  background-attachment: fixed;
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+}
+
+.imgCover {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.h-482 {
+  height: 482px;
+}
+
 .mask {
   background-color: #190014CC;
 }
@@ -13392,121 +13422,13 @@ img {
 }
 
 .banner {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   background-image: url("https://images.unsplash.com/photo-1506846540181-347008948fff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1186&q=80");
   height: 480px;
-  background-attachment: fixed;
 }
 
-.header {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 2;
-}
-
-.nav-scroller {
-  height: 2.75rem;
-  /* 隱藏下方捲軸 */
-  overflow-y: hidden;
-  border-bottom: 1px solid #707070;
-}
-
-.nav-scroller .nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  padding-bottom: 1rem;
-  /* 隱藏下方捲軸 */
-  overflow-x: auto;
-  white-space: nowrap;
-}
-
-.nav-scroller .nav a {
-  color: #707070;
-}
-
-.nav-scroller .nav a:hover {
-  color: #E31277;
-  border-bottom: 2px solid #E31277;
-}
-
-.nav-link, .hover {
-  color: #707070;
-  cursor: pointer;
-}
-
-.nav-link:hover, .hover:hover {
-  color: #E31277;
-}
-
-.swiper-container {
-  width: 100%;
-  height: 418px;
-}
-
-.swiper-slide {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.swiper-slide img {
-  width: 100%;
-  height: 350px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.modal-backdrop.show {
-  display: none;
-}
-
-.offcanvas {
-  width: 100%;
-}
-
-@media (min-width: 768px) {
-  .offcanvas {
-    top: 9%;
-    height: 91%;
-    max-width: 540px;
-  }
-}
-
-::-webkit-scrollbar {
-  height: 35px;
-}
-
-::-webkit-scrollbar-track,
-::-webkit-scrollbar-thumb {
-  border: 11px solid rgba(255, 255, 255, 0);
-  background-clip: padding-box;
-}
-
-@media (min-width: 768px) {
-  ::-webkit-scrollbar-track,
-  ::-webkit-scrollbar-thumb {
-    border: 10px solid rgba(255, 255, 255, 0);
-  }
-}
-
-::-webkit-scrollbar-track {
-  background-color: #ccc;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #E31277;
+.subscribe {
+  background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg?raw=true");
+  height: 400px;
 }
 
 .circlePoint {
@@ -13522,25 +13444,6 @@ img {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-}
-
-.material-icons {
-  display: block;
-}
-
-.liveReview {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 482px;
-}
-
-.subscribe {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg?raw=true");
-  height: 400px;
 }
 
 /*# sourceMappingURL=all.css.map */
